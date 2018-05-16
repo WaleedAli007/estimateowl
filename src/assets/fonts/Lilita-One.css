@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Lilita One';
+    font-style: normal;
+    font-weight: 400;
+    src: url(Lilita-One_400_normal.woff) format('woff'),
+        url(Lilita-One_400_normal.ttf) format('truetype');
+}
