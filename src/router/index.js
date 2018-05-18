@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Login from '@/views/Login'
 import Signup from '@/views/Signup'
 import Dashboard from '@/views/Dashboard'
+import Estimate from '@/views/Estimate'
 
 Vue.use(Router)
 
@@ -23,6 +24,12 @@ const router = new Router({
       name: 'Dashboard',
       beforeEnter: guardRoute,
       component: Dashboard
+    },
+    {
+      path: '/estimate/:id',
+      name: 'Estimate',
+      beforeEnter: guardRoute,
+      component: Estimate
     }
   ]
 })

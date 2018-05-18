@@ -86,7 +86,7 @@ export default {
    */
   logout () {
     store.commit('CLEAR_ALL_DATA')
-    router.push({ name: 'login' })
+    router.push({ name: 'Login' })
   },
 
   /**

@@ -8,6 +8,19 @@ export const UPDATE_USER = (state, user) => {
   state.user = user
 }
 
+export const TOGGLE_MODAL = (state) => {
+  state.showModal = !state.showModal
+}
+
+export const ADD_NEW_ESTIMATE = (state, estimate) => {
+  state.estimates.push(estimate)
+  console.log(state.estimates)
+}
+
+export const SAVE_ESTIMATE = (state, estimate) => {
+  state.estimates.push(estimate)
+}
+
 /**
  * Clear each property, one by one, so reactivity still works.
  *

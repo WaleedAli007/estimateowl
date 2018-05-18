@@ -16,7 +16,8 @@ let syncedData = {
 }
 
 let notSyncedData = {
-  dialog: false
+  showModal: false,
+  estimates: []
 }
 
 // Sync with local storage.
